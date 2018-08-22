@@ -10,13 +10,13 @@ namespace Ejercicio01
     {
         static void Main(string[] args)
         {
+            Console.Title = "Ejercicio Nro 01";
+
             int numero;
             int maximo = 0;
             int minimo = 0;
             float promedio = 0;
             bool flag = true;
-
-            Console.Title = "Ejercicio Nro 01";
 
             for(int i=0;i<5;i++)
             {
